@@ -1,7 +1,24 @@
 aid: huuva
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/huuva.png
 name: Huuva
-description: Huuva is a company surfaced as a portfolio company of general-catalyst and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Huuva is a Finnish food-court aggregator that lets customers order from
+  multiple partner restaurants in a single order under the tagline "The hottest restaurants,
+  all in one address." It operates physical food-court locations across Finland and
+  runs a consumer web and mobile ordering platform for delivery and pickup, alongside
+  lunch services and gift cards. Huuva is a consumer marketplace in the restaurant-technology
+  and food-delivery space and does not currently publish a public developer or API
+  program. It is a General Catalyst portfolio company based in Europe.
 url: https://raw.githubusercontent.com/api-evangelist/huuva/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +26,34 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-website: https://huuva.io
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Food Delivery
+- Restaurant Technology
+- Food Court
+- Marketplace
+- Consumer
+- Finland
+- Ordering Platform
 apis: []
+common:
+- type: DomainSecurity
+  url: security/huuva-domain-security.yml
+- type: Website
+  url: https://huuva.io
+- type: PrivacyPolicy
+  url: https://huuva.io/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
