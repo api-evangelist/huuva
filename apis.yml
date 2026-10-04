@@ -50,6 +50,7 @@ tags:
 - Consumer
 - Finland
 - Ordering Platform
+- Restaurant
 apis: []
 common:
 - type: DomainSecurity
